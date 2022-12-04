@@ -18,5 +18,4 @@ for i in f:
   lislis = lisly[1].split(',')
   if((int(lisly[0]) - int(lislis[1]))*(int(lislis[0]) - int(lisly[2])) <= 0):
     pair+=1
-    print(i)
 print(pair) 
